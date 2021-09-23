@@ -1,12 +1,12 @@
 {
-  "name": "ankitpokhrel/tus-php",
-  "description": "A pure PHP server and client for the tus resumable upload protocol v1.0.0",
+  "name": "ragulara93/tus-php",
+  "description": "A fork for tus-php",
   "type": "library",
   "license": "MIT",
   "authors": [
     {
-      "name": "Ankit Pokhrel",
-      "email": "hello@ankit.pl"
+      "name": "Ragu",
+      "email": "ragulara93@gmail.com"
     }
   ],
   "require": {
@@ -16,9 +16,9 @@
     "nesbot/carbon": "^1.26.3 || ^2.0",
     "predis/predis": "^1.1",
     "ramsey/uuid": "^3.7 || ^4.0",
-    "symfony/console": "^5.0",
-    "symfony/event-dispatcher": "^5.0",
-    "symfony/http-foundation": "^5.0.7",
+    "symfony/console": "^4.4 || ^5.0",
+    "symfony/event-dispatcher": "^4.4 || ^5.0",
+    "symfony/http-foundation": "^4.4 || ^5.0.7",
     "symfony/mime": "^5.0.9"
   },
   "require-dev": {
